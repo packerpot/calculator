@@ -7,10 +7,6 @@ function num(value) {
     document.getElementById("result").value += value;
 }
 
-function sign() {
-    document.getElementById("result").value += value;
-}
-
 function equal() {
     let a = document.getElementById("result").value;
     let b = eval(a);
