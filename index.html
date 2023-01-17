@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcutor</title>
+    <link rel="stylesheet" href="style/style.css">
+
+<body>
+    <main class="layout">
+        <div class="heading">
+            <h1>calcutor</h1>
+            <input type="text" name="result" id="result">
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td><button value="c" id="" onclick="clearfunction()">C</button></td>
+                    <td><button value="/" id="division" onclick="num('/')">/</button></td>
+                    <td><button value="%" id="percent" onclick="num('%')">%</button></td>
+                    <td><button id="on_off" value="on_off" onclick="onoffmyfunction()">on/off</button></td>
+
+                </tr>
+                <tr>
+                    <td><button value="7" onclick="num(7)">7</button></td>
+                    <td><button value="8" onclick="num(8)">8</button></td>
+                    <td><button value="9" onclick="num(9)">9</button></td>
+                    <td><button value="x" onclick="num('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button value="4" onclick="num(4)">4</button></td>
+                    <td><button value="5" onclick="num(5)">5</button></td>
+                    <td><button value="6" onclick="num(6)">6</button></td>
+                    <td><button value="-" onclick="num('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button value="1" onclick="num(1)">1</button></td>
+                    <td><button value="2" onclick="num(2)">2</button></td>
+                    <td><button value="3" onclick="num(3)">3</button></td>
+                    <td><button value="+" onclick="num ('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button value="0" onclick="num(0)">0</button></td>
+                    <td><button value="00" onclick="num(00)">00</button></td>
+                    <td><button value="." onclick="num('.')">.</button></td>
+                    <td><button value="=" onclick="equal()">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
